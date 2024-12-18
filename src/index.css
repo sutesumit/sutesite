@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.const-page {
+  @apply flex items-center h-screen justify-center flex-col
+}
+
+h3 {
+  @apply text-xl p-4
+}
+
+h5 {
+  @apply text-blue-950
+}
